@@ -10,12 +10,18 @@ const Developer = () => {
       />
       <section className="relative py-14">
         <div className="container">
-          <div className="grid grid-cols-12">
-            <div className="col-span-12 lg:col-span-6">
-                <img src="" alt="pankaj misal" className="w-full h-full" />
+          <div className="grid grid-cols-12 gap-10">
+            <div className="col-span-12 lg:col-span-4">
+              <div className="aspect-square">
+                <img
+                  src="/images/developer.jpeg"
+                  alt="pankaj misal"
+                  className="w-full h-full"
+                />
+              </div>
             </div>
-            <div className="col-span-12 lg:col-span-6">
-                <h2 className="text-2xl font-bold mb-3">Who I am ?</h2>
+            <div className="col-span-12 lg:col-span-8">
+              <h2 className="text-2xl font-bold mb-3">Who I am ?</h2>
               <p>
                 Pankaj Misal, a student of MSc IT, has developed an innovative
                 application that seamlessly converts text to speech and speech
