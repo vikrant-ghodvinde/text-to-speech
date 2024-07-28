@@ -109,7 +109,7 @@ const SpeechToText = () => {
             <p className="font-medium">
               Try our{" "}
               <Link
-                to="/speech"
+                to="/"
                 className="text-blue-500 underline underline-offset-2"
               >
                 Text to Speech
