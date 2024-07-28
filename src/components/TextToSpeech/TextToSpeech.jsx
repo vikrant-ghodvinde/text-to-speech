@@ -28,7 +28,7 @@ const TextToSpeech = () => {
   return (
     <React.Fragment>
       <Header title="Text To Speech" description="Transform your text into voice and listen to the audio." />
-      <section>
+      <section className="relative py-14">
         <div className="container">
           <div className="w-full max-w-screen-md mx-auto space-y-5">
             <textarea

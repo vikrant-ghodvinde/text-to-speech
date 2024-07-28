@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const Header = ({ title, description }) => {
   return (
-    <header className="sticky top-0 left-0 w-full">
+    <header className="relative w-full bg-white">
       <div className="container">
         <div className="relative w-full text-center space-y-4 py-4 mb-10">
           <h1 className="text-3xl font-bold">{title}</h1>

@@ -63,7 +63,7 @@ const SpeechToText = () => {
         title="Speech To Text"
         description="Transform your voice into text and copy the text if you want."
       />
-      <section>
+      <section className="relative py-14">
         <div className="container">
           <div className="w-full max-w-screen-md mx-auto space-y-5">
             <textarea
